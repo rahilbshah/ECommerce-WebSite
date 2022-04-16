@@ -393,3 +393,70 @@ body {
     color: white;
     white-space: nowrap;
   }
+footer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer .col{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+footer .logo{
+  margin-bottom: 20px;
+}
+footer h4{
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+footer p{
+  font-size: 20px;
+  margin: 0 0 8px 0;
+}
+footer a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom:10px;
+}
+footer .follow{
+  margin-top: 20px;
+}
+footer .follow i{
+  color: #465b52;
+  padding-right:4px ;
+  cursor: pointer;
+}
+footer .install .row img{
+  border: 2px solid #088178;
+  border-radius: 6px;
+  cursor: pointer;
+}
+footer .install .row{
+  margin: 15px 0;
+}
+footer .follow i:hover,
+footer .col a:hover{
+  color: #088178;
+}
+footer .copyright{
+  width: 100%;
+  text-align: center;
+}
+@media (max-width:799px) {
+  #navbar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    height: 100vh;
+    width: 300px;
+    background-color:#e3e6f3 ;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+}
+}

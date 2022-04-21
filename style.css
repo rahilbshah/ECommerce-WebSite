@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -48,16 +48,16 @@ button.white {
   font-weight: 600;
   padding: 11px 18px;
   color: white;
-  background-color: transparent;;
+  background-color: transparent;
   cursor: pointer;
   border: 1px solid white;
   outline: none;
   transition: 0.3s;
   margin-left: 25px;
 }
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover button {
   background-color: #088178;
-  border:  1px solid #088178;
+  border: 1px solid #088178;
 }
 .section-p1 {
   padding: 40px 80px;
@@ -291,172 +291,236 @@ body {
 #sm-banner .banner-box2 {
   background-image: url("img/banner/b10.jpg");
 }
-#sm-banner .banner-box h4{
-    color: white;
-    padding-left: 25px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: 'Merriweather', serif;
-  }
-  #sm-banner .banner-box h2{
-    color: white;
-    padding-bottom: 10px;
-    font-size: 40px;
-    padding-left: 25px;
-    font-weight: 800;
-    font-family: 'Dancing Script', cursive;
-  }
-  #sm-banner .banner-box span{
-    padding-bottom: 10px;
-    font-family: 'Merriweather', serif;
-    color: white;
-    font-size: 20px;
-    padding-left: 25px;
-  }
-  #banner3{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    flex-wrap: wrap;
-    margin-top: 25px;
-  }
-  #banner3 .banner-box3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("img/banner/b7.jpg");
-    min-width: 30%;
-    height: 30vh;
-    background-size: cover;
-    background-position: center;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  #banner3 .banner-box4{
+#sm-banner .banner-box h4 {
+  color: white;
+  padding-left: 25px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Merriweather", serif;
+}
+#sm-banner .banner-box h2 {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 40px;
+  padding-left: 25px;
+  font-weight: 800;
+  font-family: "Dancing Script", cursive;
+}
+#sm-banner .banner-box span {
+  padding-bottom: 10px;
+  font-family: "Merriweather", serif;
+  color: white;
+  font-size: 20px;
+  padding-left: 25px;
+}
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+#banner3 .banner-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("img/banner/b7.jpg");
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#banner3 .banner-box4 {
   background-image: url("img/banner/b4.jpg");
-  }
-  #banner3 .banner-box5{
-    background-image: url("img/banner/b18.jpg");
-  }
-  #banner3 h2{
-    color: white;
-    font-weight: 900;
-    font-size: 25px;
-  }
-  #banner3 h3{
-    color: red;
-    font-weight: 800;
-    font-size: 22px;
-  }
-  #newsletter{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    background: url('img/banner/b14.png') #041e42;
-    background-repeat: no-repeat;
-    background-position: 20% 30%;
-  }
-  #newsletter h4{
-    font-size: 40px;
-    font-weight: 700;
-    color: white;
-  }
-  #newsletter p{
-    font-size: 20px;
-    font-weight: 600;
-    color: #818ea0;
-  }
-  #newsletter p span{
-    color: #ffbd27;
-  }
-  #newsletter .form{
-    display: flex;
-    width: 40%;
-  }
-  #newsletter input{
-    height: 3.125rem;
-    padding: 0 1.25em;
-    font-size: 20px;
-    width: 100%;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    outline: none;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-  #newsletter button{
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #088178;
-    color: white;
-    white-space: nowrap;
-  }
-footer{
+}
+#banner3 .banner-box5 {
+  background-image: url("img/banner/b18.jpg");
+}
+#banner3 h2 {
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+}
+#banner3 h3 {
+  color: red;
+  font-weight: 800;
+  font-size: 22px;
+}
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url("img/banner/b14.png") #041e42;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+}
+#newsletter h4 {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+#newsletter p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #818ea0;
+}
+#newsletter p span {
+  color: #ffbd27;
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 20px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #088178;
+  color: white;
+  white-space: nowrap;
+}
+footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-footer .col{
+footer .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 10px;
 }
-footer .logo{
+footer .logo {
   margin-bottom: 20px;
 }
-footer h4{
+footer h4 {
   font-size: 25px;
   padding-bottom: 20px;
 }
-footer p{
+footer p {
   font-size: 20px;
   margin: 0 0 8px 0;
 }
-footer a{
+footer a {
   font-size: 20px;
   text-decoration: none;
   color: #222;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
-footer .follow{
+footer .follow {
   margin-top: 20px;
 }
-footer .follow i{
+footer .follow i {
   color: #465b52;
-  padding-right:4px ;
+  padding-right: 4px;
   cursor: pointer;
 }
-footer .install .row img{
+footer .install .row img {
   border: 2px solid #088178;
   border-radius: 6px;
   cursor: pointer;
 }
-footer .install .row{
+footer .install .row {
   margin: 15px 0;
 }
 footer .follow i:hover,
-footer .col a:hover{
+footer .col a:hover {
   color: #088178;
 }
-footer .copyright{
+footer .copyright {
   width: 100%;
   text-align: center;
 }
-@media (max-width:799px) {
-  #navbar {
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0;
-    right: 0px;
-    height: 100vh;
-    width: 300px;
-    background-color:#e3e6f3 ;
-    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+
+/* shop Page */
+#page-header{
+  background-image: url("img/banner/b1.jpg");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
 }
+#page-header h2,
+#page-header p{
+  color: white;
+}
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+}
+#pagination a i{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Product Detail */
+#prodetail{
+  display: flex;
+  margin-top: 20px;
+}
+#prodetail .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+#prodetail .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+#prodetail .single-pro-details h4{
+  padding: 40px 0 20px 0;
+}
+#prodetail .single-pro-details h2{
+  padding: 40px 0 20px 0;
+}
+#prodetail .single-pro-details select{
+  display: block;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+}
+#prodetail .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+#prodetail .single-pro-details input:focus,
+#prodetail .single-pro-details select:focus{
+  outline: none;
+}
+#prodetail .single-pro-details span{
+  line-height: 25px;
+  font-size: 22px;
 }
